@@ -105,13 +105,14 @@ git push origin master
 
 ## Step  8: view the results
 
-We embed the geojson into a gh-pages (project) web page here: http://dansand.github.io/resistance-safe-houses/
+We embed the geojson into a gh-pages (project) web page here: http://russelljjarvis.github.io/resistance-safe-houses/
 
 # Notes
 
 ## Acknowledgements
 
 The idea for this lesson came from Open Tech School:
+http://dansand.github.io/resistance-safe-houses/
 
 http://opentechschool.github.io/social-coding/core/underground.html
 
