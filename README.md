@@ -85,6 +85,8 @@ Run the following commands from the directory where you want to store a local co
 
 First, make a local copy of the repository using `git clone`
 
+
+Note see USERNAME in command below:
 ```
 git clone https://github.com/USERNAME/resistance-safe-houses
 cd resistance-safe-houses
@@ -92,7 +94,7 @@ cd resistance-safe-houses
 There is one more thing left to do: keeping up to date with upstream. In Git upstream refers to some remote repository that you consider higher or more authoritative than yours. At the moment your local repository has one upstream repository, your GitHub repository. When you type git pull, that’s where it pulls from
 
 ```
-git remote add upstream https://github.com/dansand/resistance-safe-houses.git
+git remote add upstream https://github.com/russelljjarvis/resistance-safe-houses.git
 git fetch upstream
 git merge upstream/master
 git push
@@ -111,8 +113,11 @@ We embed the geojson into a gh-pages (project) web page here: http://russelljjar
 
 ## Acknowledgements
 
-The idea for this lesson came from Open Tech School:
+The idea came from dansand who taught this at the UoM research bazaar a long time ago.
+
 http://dansand.github.io/resistance-safe-houses/
+
+Dan Sand got the idea from Open Tech School:
 
 http://opentechschool.github.io/social-coding/core/underground.html
 
