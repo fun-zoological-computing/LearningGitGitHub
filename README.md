@@ -1,3 +1,26 @@
+# Why Git and GitHub: Beyond Mere version control.
+
+I have come to think of GitHub Pull Requests as (MS Word) track changes for code. On a local resource, you can also Meld to difference your code with another person's proposed changes, or new changes.
+
+Once code is moved to an online location, lots of other convenient GitHub integrations are possible, a lot of these integrations are relevant not just for code, but also for communication (research publication, project planning, type-setting, collaboration, and even now outreach).
+
+GitHub is a Democratizing force and there is even now a research group called policy/government rules as code, which is part of Civic Makers Australia (kind of a volunteer open source code movement).
+
+As I said, its possible to apply git and GitHub to diverse tasks using integrations. Although you should at least use github for regular de-centralized code sharing. You should also use GitHub for all of the convenient integrations, these include:
+
+
+* Hosted dashboard deployment (heroku, streamlit). 
+ * When deploying a data driven dashboard app, streamlit-share and heroku listen to github hooks. 
+
+* Continuous integration
+For-instance I am using .github actions to build and test software that I am socially developing.
+ * Travis, CircleCI
+When making a personal code portfolio, node-js automatically knows how to push to github.pages. 
+* Communication and dissemination:
+ * When I use Overleaf to write research, overleaf is integrated with Github so you can add figures using git add *.png. 
+To summarize, I use GitHub for everything, and on 4 out of 7 days a week I edit some kind of markdown file on GitHub.
+
+
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8044640&assignment_repo_type=AssignmentRepo)
 
 # Resistance Safe Houses (cafe reviews, or nature park reviews).
