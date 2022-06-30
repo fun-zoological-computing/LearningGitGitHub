@@ -1,4 +1,18 @@
-# Why Git and GitHub: Beyond Mere version control.
+# Why Version Control: polite and convenient sharing.
+Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potatoe, and you thought rather than weighting for him, you should allow him to fetch the salt from the letter box asychronously from a location, where items are expected to enter the house.
+
+You realise, that she may not be expecting the salt shaker to be in the letter box, so you instead walk to the post office, so the salt shaker can be placed in a box with a label, salt shaker, and also a manual on how to use the salt shaker could be included in the postage package.
+
+When someone wants to do code collaboration with you, you might be tempted to send them a list of the latest files over email or a messenger, that would "feel" as appropriate as directly passing a salt shaker at the kitchen table. I will argue instead that sharing a git repository is a lot more like directly passing the salt shaker at the kitchen table.
+
+My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "politeness".
+
+Sharing for git can potentially be less work for you and the other person. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. 
+
+### AKA continous integration
+Tells you whether merging someones proposed code changes will break the upstream code branch.
+
+## Why Git and GitHub: Beyond Mere version control.
 
 I have come to think of GitHub Pull Requests as (MS Word) track changes for code. On a local resource, you can also Meld to difference your code with another person's proposed changes, or new changes.
 
@@ -20,6 +34,20 @@ When making a personal code portfolio, node-js automatically knows how to push t
  * When I use Overleaf to write research, overleaf is integrated with Github so you can add figures using git add *.png. 
 To summarize, I use GitHub for everything, and on 4 out of 7 days a week I edit some kind of markdown file on GitHub.
 
+
+### Reproducibility of scientific results is a cornerstone of science. 
+
+Direct qoute from website: https://conquaire.uni-bielefeld.de/project_proposal/
+"Karl Popper [1, p. 45] wrote:
+
+'We do not take even our own observations quite seriously, or accept them as scientific observations, until we have repeated and tested them. Only by such repetitions can we convince ourselves that we are not dealing with a mere isolated coincidence, but with events which, on account of their regularity and reproducibility, are in principle intersubjectively testable.'
+
+This ability for constant, rigorous testing and validation of research results ensures the integrity and efficiency of science. Stating it in the words of the OECD [2]: 'Sharing and open access to publicly funded research data not only helps to maximise the research potential of new digital technologies and networks, but provides greater returns from the public investment in research.'"
+
+
+-- end direct qoute.
+
+Also, you might end up working with a team of people
 
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8044640&assignment_repo_type=AssignmentRepo)
 
