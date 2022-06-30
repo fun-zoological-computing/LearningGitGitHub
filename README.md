@@ -55,6 +55,13 @@ Also, you might end up working with a team of people
 
 ## Exercises, Take home lab instructions:
 
+
+#### For Future reference only Git lessons
+
+Learn the basics of git (as opposed to github), with these Software Carpentry lessons:
+
+http://swcarpentry.github.io/git-novice/
+
 ## Resistance Safe Houses (cafe reviews, or nature park reviews).
 
 Collaboration using Gitub and geojson
@@ -197,10 +204,3 @@ GeoJSON is a format for encoding a variety of geographic data structures.
 
 The JSON format expects the keys to a dictionary to be strings. If you have other types as keys in your dictionary, trying to encode the object will produce a ValueError. One way to work around that limitation is to skip over non-string keys using the skipkeys argument:
 
-## Future of collaboration
-
-## Git lessons
-
-Learn the basics of git (as opposed to github), with these Software Carpentry lessons:
-
-http://swcarpentry.github.io/git-novice/
