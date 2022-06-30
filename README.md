@@ -1,9 +1,10 @@
 # Why Version Control: polite and convenient sharing.
-Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potatoe, and you thought rather than weighting for him, you should allow him to fetch the salt from the letter box asychronously from a location, where items are expected to enter the house.
 
-You realise, that she may not be expecting the salt shaker to be in the letter box, so you instead walk to the post office, so the salt shaker can be placed in a box with a label, salt shaker, and also a manual on how to use the salt shaker could be included in the postage package.
+* Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potatoe, and you thought rather than weighting for him, you should allow him to fetch the salt from the letter box asychronously from a location, where items are expected to enter the house.
 
-When someone wants to do code collaboration with you, you might be tempted to send them a list of the latest files over email or a messenger, that would "feel" as appropriate as directly passing a salt shaker at the kitchen table. I will argue instead that sharing a git repository is a lot more like directly passing the salt shaker at the kitchen table.
+* You realise, that she may not be expecting the salt shaker to be in the letter box, so you instead walk to the post office, so the salt shaker can be placed in a box with a label, salt shaker, and also a manual on how to use the salt shaker could be included in the postage package.
+
+* When someone wants to do code collaboration with you, you might be tempted to send them a list of the latest files over email or a messenger, that would "feel" as appropriate as directly passing a salt shaker at the kitchen table. I will argue instead that sharing a git repository is a lot more like directly passing the salt shaker at the kitchen table.
 
 My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "politeness".
 
@@ -51,7 +52,10 @@ Also, you might end up working with a team of people
 
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8044640&assignment_repo_type=AssignmentRepo)
 
-# Resistance Safe Houses (cafe reviews, or nature park reviews).
+
+## Exercises, Take home lab instructions:
+
+## Resistance Safe Houses (cafe reviews, or nature park reviews).
 
 Collaboration using Gitub and geojson
 
