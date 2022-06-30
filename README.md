@@ -1,14 +1,22 @@
 # Why Version Control: polite and convenient sharing.
 
-* Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potatoe, and you thought rather than weighting for him, you should allow him to fetch the salt from the letter box asychronously from a location, where items are expected to enter the house.
+* Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potato, and you thought rather than waiting for her, under the principal of asynchronous development you should allow her to fetch the salt from the letter box from a location where items are expected to enter the house at a time when she is ready, you are aware that your decision will seem a bit rude, but your sister is a developer and you think she will understand.
 
-* You realise, that she may not be expecting the salt shaker to be in the letter box, so you instead walk to the post office, so the salt shaker can be placed in a box with a label, salt shaker, and also a manual on how to use the salt shaker could be included in the postage package.
+You realise, that she may not be expecting to look for the salt shaker to be in the letter box, but you don't talk to her while eating, so you instead walk to the post office, so the salt shaker can be placed in a box with a label, salt shaker, and also a manual on how to use the salt shaker could be included in the postage package.
 
-* When someone wants to do code collaboration with you, you might be tempted to send them a list of the latest files over email or a messenger, that would "feel" as appropriate as directly passing a salt shaker at the kitchen table. I will argue instead that sharing a git repository is a lot more like directly passing the salt shaker at the kitchen table.
+When someone wants to do code collaboration with you, you might be tempted to send them a list of the latest files over email or a messenger, that would "feel" as appropriate as directly passing a salt shaker at the kitchen table. I will argue instead that sharing a git repository is a lot more like directly passing the salt shaker at the kitchen table.
 
 My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "politeness".
 
 Sharing for git can potentially be less work for you and the other person. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. 
+
+Imagine you share just the current version of the source code you are working on as a list of files, or even just some highlighted text. Your collaborator comes back to you, and says, the code wont run, unless you conda install x,y,z apt or brew install a,b,c, and additionally pip install d, since conda had no candidate for d.
+
+Then after all of those installs the person may discover that some that the `PATH` environment variable needed editing (a binary needed to be added to the path).
+
+Also you had hacked a package `beautiful soup` in order to make it compatible with your workflow, and your friend the collaborator would have to either comment out code lines that depended on beautiful soup, or install your hacked version, or write their own implementation of your code.
+
+Fortuntately all of these project build idiosycracies can be absorbed into `.github/workflows` in a way that means you can pre-emptively share the hacks and workarounds that make your project unique from other projects. Almost any applied project will accumulate minor hacks. The important thing is that these workarounds are very often sharable too, and it can often be less work to find out how to make github automatically apply these workarounds.
 
 ### AKA continous integration
 Tells you whether merging someones proposed code changes will break the upstream code branch.
