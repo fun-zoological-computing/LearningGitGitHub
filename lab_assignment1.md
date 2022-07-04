@@ -17,6 +17,10 @@ From ssh://.../site.git
 CONFLICT (add/add): Merge conflict in admin/process_email.php
 Automatic merge failed; fix conflicts and then commit the result.
 ```
+* Its a classic problem that sometimes leads to this git anti pattern:
+
+![gitxkcd.png](gitxkcd.png)
+
 
 This problem even happened organically in the creation of this learning material. See below:
 ```
@@ -42,10 +46,6 @@ hint: (e.g., 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 (base) user@tux:~/git/perform-a-nice-sydney-cafe-bar-review-via-pull-request-russelljjarvis$ 
 ```
-
-* Its a classic problem that sometimes leads to this git anti pattern:
-
-![gitxkcd.png](gitxkcd.png)
 
 
 ### Creating a merge conflict
