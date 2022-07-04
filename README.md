@@ -1,13 +1,10 @@
 # Why Version Control: Convenient and Effective sharing.
-<p>
+
 [Lab Assignment 1](lab_assignment1.md)
 
-</p>
-
-<p>
+ 
 [Lab Assignment 2](lab_assignment2.md)
 
-</p>
 
 <!---
 * Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potato, and you thought rather than waiting for her, under the principal of asynchronous development you should allow her to fetch the salt from the letter box from a location where items are expected to enter the house at a time when she is ready, you are aware that your decision will seem a bit rude, but your sister is a developer and you think she will understand.
@@ -18,6 +15,7 @@ When someone wants to do code collaboration with you, you might be tempted to se
 
 My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "politeness".
 --->
+
 Sharing for git can potentially be less work for you and the other person. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. 
 
 Imagine you share just the current version of the source code you are working on as a list of files, or even just some highlighted text. Your collaborator comes back to you, and says, the code wont run, unless you conda install x,y,z apt or brew install a,b,c, and additionally pip install d, since conda had no candidate for d.
