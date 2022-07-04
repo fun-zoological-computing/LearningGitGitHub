@@ -96,7 +96,7 @@ Run the following commands from the directory where you want to store a local co
 First, make a local copy of the repository using `git clone`
 
 
-Note see USERNAME in command below:
+Note USERNAME must reflect your github username in command below:
 ```
 git clone https://github.com/USERNAME/resistance-safe-houses
 cd resistance-safe-houses
