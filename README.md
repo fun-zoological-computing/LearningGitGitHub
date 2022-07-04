@@ -7,6 +7,8 @@
 
 
 <!---
+
+Don't say this:
 * Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potato, and you thought rather than waiting for her, under the principal of asynchronous development you should allow her to fetch the salt from the letter box from a location where items are expected to enter the house at a time when she is ready, you are aware that your decision will seem a bit rude, but your sister is a developer and you think she will understand.
 
 You realise, that she may not be expecting to look for the salt shaker to be in the letter box, but you don't talk to her while eating, so you instead walk to the post office, so the salt shaker can be placed in a box with a label, salt shaker, and also a manual on how to use the salt shaker could be included in the postage package.
@@ -26,7 +28,11 @@ Also you had hacked a package `beautiful soup` in order to make it compatible wi
 
 Fortuntately all of these project build idiosycracies can be absorbed into `.github/workflows` in a way that means you can pre-emptively share the hacks and workarounds that make your project unique from other projects. Almost any applied project will accumulate minor hacks. The important thing is that these workarounds are very often sharable too, and it can often be less work to find out how to make github automatically apply these workarounds.
 
-### AKA continous integration
+## Continous Integration
+Is a version control feature, where code that can sense source code contributions and changes:
+* Is triggered to run given a change of source code.
+* Runs build tests, and unit tests to establish if the proposed source code revisions would "break" the current code base given a merge.
+
 Tells you whether merging someones proposed code changes will break the upstream code branch.
 
 ## Why Git and GitHub: Beyond Mere version control.
