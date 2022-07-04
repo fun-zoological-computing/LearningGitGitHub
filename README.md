@@ -54,17 +54,20 @@ To summarize, I use GitHub for everything, and on 4 out of 7 days a week I edit 
 
 ### Reproducibility of scientific results is a cornerstone of science. 
 
-Direct qoute from website: https://conquaire.uni-bielefeld.de/project_proposal/
 "Karl Popper [1, p. 45] wrote:
-
+<!---
 'We do not take even our own observations quite seriously, or accept them as scientific observations, until we have repeated and tested them. Only by such repetitions can we convince ourselves that we are not dealing with a mere isolated coincidence, but with events which, on account of their regularity and reproducibility, are in principle intersubjectively testable.'
+
+Also, you might end up working with a team of people
+
+--->
+
+Direct qoute from website: https://conquaire.uni-bielefeld.de/project_proposal/
 
 This ability for constant, rigorous testing and validation of research results ensures the integrity and efficiency of science. Stating it in the words of the OECD [2]: 'Sharing and open access to publicly funded research data not only helps to maximise the research potential of new digital technologies and networks, but provides greater returns from the public investment in research.'"
 
 
--- end direct qoute.
 
-Also, you might end up working with a team of people
 
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=8044640&assignment_repo_type=AssignmentRepo)
 
