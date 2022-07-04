@@ -1,4 +1,7 @@
 # Why Version Control: Convenient and Effective sharing.
+![lab_assignment1.md](lab_assignment1.md)
+![lab_assignment2.md](lab_assignment2.md)
+
 <!---
 * Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potato, and you thought rather than waiting for her, under the principal of asynchronous development you should allow her to fetch the salt from the letter box from a location where items are expected to enter the house at a time when she is ready, you are aware that your decision will seem a bit rude, but your sister is a developer and you think she will understand.
 
