@@ -60,8 +60,10 @@ To summarize, I use GitHub for everything, and on 4 out of 7 days a week I edit 
 
 ### Reproducibility of scientific results is a cornerstone of science. 
 
-"Karl Popper [1, p. 45] wrote:
 <!---
+
+"Karl Popper [1, p. 45] wrote:
+
 'We do not take even our own observations quite seriously, or accept them as scientific observations, until we have repeated and tested them. Only by such repetitions can we convince ourselves that we are not dealing with a mere isolated coincidence, but with events which, on account of their regularity and reproducibility, are in principle intersubjectively testable.'
 
 Also, you might end up working with a team of people
