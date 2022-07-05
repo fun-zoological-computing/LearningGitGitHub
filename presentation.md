@@ -10,7 +10,7 @@ As I said, its possible to apply git and GitHub to diverse tasks using integrati
 
 
 ## Useful Non obvious things you can achieve with Git+GitHub
-* Making unpublished work citable (Zendo).
+* Making unpublished work citable ![Zendo](https://zenodo.org/).
 * Hosted dashboard deployment (heroku, streamlit).
  * When deploying a data driven dashboard app, streamlit-share and heroku listen to github hooks.
 
