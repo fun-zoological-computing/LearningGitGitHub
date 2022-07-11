@@ -6,22 +6,12 @@
 
 [presentation](presentation.md)
 
-<!---
-
-Don't say this:
-* Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potato, and you thought rather than waiting for her, under the principal of asynchronous development you should allow her to fetch the salt from the letter box from a location where items are expected to enter the house at a time when she is ready, you are aware that your decision will seem a bit rude, but your sister is a developer and you think she will understand.
-
-You realise, that she may not be expecting to look for the salt shaker to be in the letter box, but you don't talk to her while eating, so you instead walk to the post office, so the salt shaker can be placed in a box with a label, salt shaker, and also a manual on how to use the salt shaker could be included in the postage package.
-
-When someone wants to do code collaboration with you, you might be tempted to send them a list of the latest files over email or a messenger, that would "feel" as appropriate as directly passing a salt shaker at the kitchen table. I will argue instead that sharing a git repository is a lot more like directly passing the salt shaker at the kitchen table.
-
-My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "politeness".
---->
-
 
 Sharing for git can potentially be less work for you (a solo worker) and or you and everyone else your team. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. Finally git "stages" files, this means git helps you to keep a history of your code files as they change over time.
 
-Imagine you share just the current version of the source code you are working on as a list of files, or even just some highlighted text. Your collaborator comes back to you, and says, the code wont run, unless you conda install x,y,z apt or brew install a,b,c, and additionally pip install d, since conda had no candidate for d.
+A functioning software project can rarely be reduced to source files alone. Sharing the source code is not sufficient to reproduce scientific results from another person, what you really need is to recreate their whole software environment. A pip virtual environment might go along way to achieving this, but virtual environments are OS and dependentant and specific to the build state and system level dependencys too.
+
+Imagine you share just the current version of the source code you are working on as a list of files, or even just some highlighted text. Your collaborator comes back to you, and says, the code wont run, unless you `conda install` `x,y,z` apt or brew install `a,b,c,` and additionally `pip install` `d,` since `conda` had no candidate for `d`.
 
 Then after all of those installs the person may discover that some that the `PATH` environment variable needed editing (a binary needed to be added to the path).
 
@@ -74,5 +64,17 @@ Also, you might end up working with a team of people
 Direct qoute from website: https://conquaire.uni-bielefeld.de/project_proposal/
 
 The ability to do "constant, rigorous testing and validation of research results ensures the integrity and efficiency of science...", Furthermore: "...in the words of the OECD [2](https://conquaire.uni-bielefeld.de/project_proposal/): 'Sharing and open access to publicly funded research data not only helps to maximise the research potential of new digital technologies and networks, but provides greater returns from the public investment in research.'"
+
+<!---
+
+Don't say this:
+* Imagine eating dinner with your family, your sister at the table requests the salt shaker from you, knowing that you could pass the salt by gently pushing it along the table, or momentarily standing up and leaning towards your sister. Instead you decide to take the salt shaker outside, and place it in the families letter box, you reason that your sister looked to be busy chewing on some potato, and you thought rather than waiting for her, under the principal of asynchronous development you should allow her to fetch the salt from the letter box from a location where items are expected to enter the house at a time when she is ready, you are aware that your decision will seem a bit rude, but your sister is a developer and you think she will understand.
+
+You realise, that she may not be expecting to look for the salt shaker to be in the letter box, but you don't talk to her while eating, so you instead walk to the post office, so the salt shaker can be placed in a box with a label, salt shaker, and also a manual on how to use the salt shaker could be included in the postage package.
+
+When someone wants to do code collaboration with you, you might be tempted to send them a list of the latest files over email or a messenger, that would "feel" as appropriate as directly passing a salt shaker at the kitchen table. I will argue instead that sharing a git repository is a lot more like directly passing the salt shaker at the kitchen table.
+
+My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "politeness".
+--->
 
 
