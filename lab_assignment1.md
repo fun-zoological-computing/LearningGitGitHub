@@ -17,10 +17,35 @@ From ssh://.../site.git
 CONFLICT (add/add): Merge conflict in admin/process_email.php
 Automatic merge failed; fix conflicts and then commit the result.
 ```
-
 * Its a classic problem that sometimes leads to this git anti pattern:
 
 ![gitxkcd.png](gitxkcd.png)
+
+
+This problem even happened organically in the creation of this learning material. See below:
+```
+-rw-rw-r-- 1 user user   5963 Jul  4 12:38  lab_assignment1.md
+-rw-rw-r-- 1 user user   5487 Jul  4 12:41  lab_assignment2.md
+(base) user@tux:~/git/perform-a-nice-sydney-cafe-bar-review-via-pull-request-russelljjarvis$ git add json_diffs_bad.png 
+(base) user@tux:~/git/perform-a-nice-sydney-cafe-bar-review-via-pull-request-russelljjarvis$ git add gitxkcd.png 
+g(base) user@tux:~/git/perform-a-nice-sydney-cafe-bar-review-via-pull-request-russelljjarvis$ git commit -m "update all"
+[master 5befcd8] update all
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 gitxkcd.png
+ create mode 100644 json_diffs_bad.png
+(base) user@tux:~/git/perform-a-nice-sydney-cafe-bar-review-via-pull-request-russelljjarvis$ git push origin master
+Username for 'https://github.com': russelljjarvis
+Password for 'https://russelljjarvis@github.com': 
+To https://github.com/fun-zoological-computing/perform-a-nice-sydney-cafe-bar-review-via-pull-request-russelljjarvis
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/fun-zoological-computing/perform-a-nice-sydney-cafe-bar-review-via-pull-request-russelljjarvis'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+(base) user@tux:~/git/perform-a-nice-sydney-cafe-bar-review-via-pull-request-russelljjarvis$ 
+```
 
 
 ### Creating a merge conflict

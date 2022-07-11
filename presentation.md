@@ -10,7 +10,15 @@ GitHub is a Democratizing force and there is even now a research group called po
 
 As I said, its possible to apply git and GitHub to diverse tasks using integrations. Although you should at least use github for regular de-centralized code sharing. You should also use GitHub for all of the convenient integrations, these include:
 
-* Making unpublished work citable.
+## Useful Obvious things you can achieve with Git+GitHub
+
+Project history and branching. 
+Projects with files (esp code files), that are "staged" by github are recorded and remembered. 
+This recording function is a bit like the "Time Machine" Feature in Apple/MAC except that it has a more technical interface.
+
+
+## Useful Non obvious things you can achieve with Git+GitHub
+* Making unpublished work citable [Zendo](https://zenodo.org/).
 * Hosted dashboard deployment (heroku, streamlit).
  * When deploying a data driven dashboard app, streamlit-share and heroku listen to github hooks.
 
@@ -22,7 +30,7 @@ When making a personal code portfolio, node-js automatically knows how to push t
  * When I use Overleaf to write research, overleaf is integrated with Github so you can add figures using git add *.png.
 To summarize, I use GitHub for everything, and on 4 out of 7 days a week I edit some kind of markdown file on GitHub.
 
-# Why Version Control: polite and convenient sharing.
+# Why Version Control:Time-efficient, team-efficient and convenient sharing.
 
 
 <!--
@@ -34,6 +42,7 @@ When someone wants to do code collaboration with you, you might be tempted to se
 
 ## GitHub Pitfalls:
 
+![](tubeOfLondon.png)
 
 Classic Problem 1:
 ```
