@@ -5,7 +5,7 @@
  
 [Lab Assignment 2](lab_assignment2.md)
 
-[Lab Assignment 2](presentation.md)
+[presentation](presentation.md)
 
 <!---
 
