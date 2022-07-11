@@ -36,6 +36,7 @@ GitHub is a Democratizing force and there is even now a research group called po
 
 As I said, its possible to apply git and GitHub to diverse tasks using integrations. Although you should at least use github for regular de-centralized code sharing. You should also use GitHub for all of the convenient integrations, these include:
 
+* Making unpublished work citable [Zendo](https://zenodo.org/).
 
 * Hosted dashboard deployment (heroku, streamlit). 
  * When deploying a data driven dashboard app, streamlit-share and heroku listen to github hooks. 
