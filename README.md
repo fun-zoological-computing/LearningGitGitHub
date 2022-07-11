@@ -5,6 +5,7 @@
  
 [Lab Assignment 2](lab_assignment2.md)
 
+[Lab Assignment 2](presentation.md)
 
 <!---
 
@@ -18,7 +19,8 @@ When someone wants to do code collaboration with you, you might be tempted to se
 My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "politeness".
 --->
 
-Sharing for git can potentially be less work for you and the other person. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. 
+
+Sharing for git can potentially be less work for you (a solo worker) and or you and everyone else your team. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. Finally git "stages" files, this means git helps you to keep a history of your code files as they change over time.
 
 Imagine you share just the current version of the source code you are working on as a list of files, or even just some highlighted text. Your collaborator comes back to you, and says, the code wont run, unless you conda install x,y,z apt or brew install a,b,c, and additionally pip install d, since conda had no candidate for d.
 
