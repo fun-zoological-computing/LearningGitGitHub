@@ -1,6 +1,4 @@
-![](tubeOfLondon.png)
-
-![](tube_london_bad.png)
+<!--![](tubeOfLondon.png)-->
 ## Why Git and GitHub: Beyond Mere version control.
 I have come to think of GitHub Pull Requests as (MS Word) track changes for code. On a local resource, you can also Meld to difference your code with another person's proposed changes, or new changes.
 
@@ -42,7 +40,9 @@ When someone wants to do code collaboration with you, you might be tempted to se
 
 ## GitHub Pitfalls:
 
-![](tubeOfLondon.png)
+<!--![](tubeOfLondon.png)-->
+
+![](tube_london_bad.png)
 
 Classic Problem 1:
 ```
