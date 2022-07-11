@@ -1,4 +1,4 @@
-# Version Control and Beyond: Not Just! Convenient and Effective Sharing.
+# Version Control and Beyond: Not Just Convenient and Effective Sharing!
 
 [Lab Assignment 1](lab_assignment1.md)
 
