@@ -74,6 +74,6 @@ Also, you might end up working with a team of people
 
 Direct qoute from website: https://conquaire.uni-bielefeld.de/project_proposal/
 
-This ability for constant, rigorous testing and validation of research results ensures the integrity and efficiency of science. Stating it in the words of the OECD [2]: 'Sharing and open access to publicly funded research data not only helps to maximise the research potential of new digital technologies and networks, but provides greater returns from the public investment in research.'"
+The ability to do "constant, rigorous testing and validation of research results ensures the integrity and efficiency of science...", Furthermore: "...in the words of the OECD [2](https://conquaire.uni-bielefeld.de/project_proposal/): 'Sharing and open access to publicly funded research data not only helps to maximise the research potential of new digital technologies and networks, but provides greater returns from the public investment in research.'"
 
 
