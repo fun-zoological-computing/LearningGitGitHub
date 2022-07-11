@@ -1,10 +1,20 @@
+
+[Week 2 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week2.ipynb)
+
+[Week 3 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week3.ipynb)
+
+[Week 4 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week4.ipynb)
+
+[Week 8 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week8.ipynb)
+
 # Version Control and Beyond: Not Just Convenient and Effective Sharing!
+
+[presentation](presentation.md)
 
 [Lab Assignment 1](lab_assignment1.md)
 
 [Lab Assignment 2](lab_assignment2.md)
 
-[presentation](presentation.md)
 
 
 Sharing for git can potentially be less work for you (a solo worker) and or you and everyone else your team. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. Finally git "stages" files, this means git helps you to keep a history of your code files as they change over time.
