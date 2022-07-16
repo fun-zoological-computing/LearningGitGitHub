@@ -46,10 +46,46 @@ for i,x in enumerate([1,2,3,4,5]):
 c=[(i,x) for i,x in enumerate([1,2,3,4,5])]
 ```
 
-
-Genetic algorithms involve a counter balance of which forces:
+## Genetic algorithms involve a counter balance of which forces:
 *a attraction
 *b selection
 *c diversity
 *d repulsion
 *e mutation
+
+## The exploration exploitation tradeoff describes: 
+*1a a conflict in time, there is not enough time to find the best answer and utilize the best ansewer.
+*1b a conflict in scale, the error sample is sensitive to big jumps in the parameter space, and small jumps in the parameter space, there is a conflict in time that can be spent searching the macroscale and microscale contributions to error
+*1c. Satisficing (pre-registered criterion for when a solution is good enough to be utilized).
+
+## With respect to the exploration exploitation tradeoff Eta should:
+* Start small, and get bigger with ongoing iterations of the Genetic Algorithm (GA).
+* Start large, and get smaller with ongoing iterations of the genetic algorithm.
+* Eta should be initialized with a random seed, and be selected for by comparing against a fitness criterion.
+
+## Differences between Python MATLAB and BASH:
+
+
+
+## In contrast to other machine learning algorithms:
+* 
+
+## Meta learning or learning to learn describes:
+* Tuning one machine learning techniques meta parameters, with a different machine learning algorithm.
+
+## Bogus fun answers:
+* Gradient descent
+* Gradient ascent
+* Never gradient
+* Momentum
+
+
+
+
+## Genetic algorithms teach what
+Sparse intelligent sampling.
+Optimization and inverse problems.
+
+## In Genetic Algorithms $Eta$ is:
+*momentum which can be used to plough through smaller gradients.
+*a the average step size caused by the combined effects mutation and cross over.
