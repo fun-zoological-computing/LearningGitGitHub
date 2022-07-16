@@ -26,7 +26,7 @@ for ind in range(0,len(a)):
 for i in [1,2,3,4,5]:
    print(i)
 ```
-Which is more Pythonic:
+## Which is more Pythonic:
 
 * 1:
 ```
@@ -64,6 +64,19 @@ c=[(i,x) for i,x in enumerate([1,2,3,4,5])]
 * Eta should be initialized with a random seed, and be selected for by comparing against a fitness criterion.
 
 ## Differences between Python MATLAB and BASH:
+### If Python is so good, Why hasnt Python replaced BASH as a system level language shell?
+* BASH is faster
+* os.system.
+* Python2.7 is used by many operating systems.
+* zsh replaces BASH.
+* bash does not support floats.
+### Which language has base 0 indexing
+a) Python
+b) Julia
+c) MATLAB
+d) BASH
+
+## Glob
 
 
 
