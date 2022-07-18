@@ -6,10 +6,18 @@
 * Directed, Acyclic graph (convergence and divergence between collabotor forks and branches, but without feedback).
 
 
-## Changing the gitNetwork structure is possible how:
-```git init```
-```git rebase```
-```git reset hard```
+## DRY principle:
+In Python which language features don't support DRY: "Don't Repeat Yourself":
+* `this`: used to define a class
+* `self`: define a class
+* `def`: used to define a function 
+* `super`: to create inheritence in some class definitions.
+
+## Changing the git commit history's network structure is possible how:
+
+a) ```git init```
+b) ```git rebase```
+c) ```git reset hard```
 
 ## Python lists
 
