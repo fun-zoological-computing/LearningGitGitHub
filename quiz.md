@@ -15,9 +15,7 @@ In Python which language features **don't** support DRY: "Don't Repeat Yourself"
 * `super`: to create inheritence in some class definitions.
 
 
-## Person x claims that Classes and functions make code harder to read, due to there being more special keywords.
-By contrast,
-## Linus Tvoldis the original linux kernel creator is famously qouted that if you have more than 4 levels of indentation then you should fix your code
+### Person x claims that Classes and functions make code harder to read, due to there being more special keyword. By contrast Linus Tvoldis the original linux kernel creator is famously qouted that if you have more than 4 levels of indentation then you should fix your code
 Python has what tools to you to stop writing overly nested code:
 
 * `zip` (making 2d iterators easily)
