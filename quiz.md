@@ -14,10 +14,24 @@ In Python which language features **don't** support DRY: "Don't Repeat Yourself"
 * `def`: used to define a function. 
 * `super`: to create inheritence in some class definitions.
 
+
+## Person x claims that Classes and functions make code harder to read, due to there being more special keywords.
+By contrast,
+## Linus Tvoldis the original linux kernel creator is famously qouted that if you have more than 4 levels of indentation then you should fix your code
+Python has what tools to you to stop writing overly nested code:
+
+* `zip` (making 2d iterators easily)
+* `enumerate`, giving you the index, and the indexed value
+* list comprensions and lambda functionn (one liners, syntactic expressions which would otherwise span multiple indentation levels.
+* `def` (functions), a function definition contains nesting, but the function call hides the nesting again.
+* `self` (classes)
+
 ## Changing the git commit history's network structure is possible how:
 
 a) ```git init```
+
 b) ```git rebase```
+
 c) ```git reset hard```
 
 ## Python lists
