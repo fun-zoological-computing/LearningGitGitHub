@@ -1,7 +1,10 @@
 
 
 # Lab Assignment 1
+### Submission requirements:
 
+Submission is via GIT Classroom, and Turnitin. 
+For turnit-in Copy the code as plain text to a document and submit.
 ## GitHub Pitfalls:
 
 
