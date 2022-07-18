@@ -4,6 +4,7 @@ I have come to think of GitHub Pull Requests as (MS Word) track changes for code
 * Given that two different files had a common origin, it makes sense to 
 * compare those files (aka difference the files).
 * merge or meld togethor your code with another person's different code.
+* or selectively merge only the code differences you approve of.
 
 Once code is moved to an online location, lots of other convenient GitHub integrations are possible, a lot of these integrations are relevant not just for code, but also for communication (research publication, project planning, type-setting, collaboration, and even now outreach).
 
