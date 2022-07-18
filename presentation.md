@@ -1,5 +1,5 @@
 <!--![](tubeOfLondon.png)-->
-## Why Git and GitHub: Beyond Mere version control.
+## Why Git and GitHub: Beyond Version Control.
 I have come to think of GitHub Pull Requests as (MS Word) track changes for code. On a local resource, you can also Meld to difference your code with another person's proposed changes, or new changes.
 
 Once code is moved to an online location, lots of other convenient GitHub integrations are possible, a lot of these integrations are relevant not just for code, but also for communication (research publication, project planning, type-setting, collaboration, and even now outreach).
