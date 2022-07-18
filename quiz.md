@@ -7,10 +7,11 @@
 
 
 ## DRY principle:
-In Python which language features don't support DRY: "Don't Repeat Yourself":
-* `this`: used to define a class
+In Python which language features **don't** support DRY: "Don't Repeat Yourself":
+* `this`: used to define a class in Java (correct choice).
+* `pass`: No operation (correct choice)
 * `self`: define a class
-* `def`: used to define a function 
+* `def`: used to define a function. 
 * `super`: to create inheritence in some class definitions.
 
 ## Changing the git commit history's network structure is possible how:
@@ -88,9 +89,14 @@ d) BASH
 
 
 
-## In contrast to other machine learning algorithms:
+## In contrast to other machine learning algorithms, genetic algorithms are more suited to what?:
+* Function optimization.
+* Offline and or Online Function optimization (correct).
+* Offline classification.
+* offline Regression of non-linear functions
+* Gradient descent
+* Stochastic Gradient Descent.
 * 
-
 ## Meta learning or learning to learn describes:
 * Tuning one machine learning techniques meta parameters, with a different machine learning algorithm.
 
@@ -99,9 +105,6 @@ d) BASH
 * Gradient ascent
 * Never gradient
 * Momentum
-
-
-
 
 ## Genetic algorithms teach what
 Sparse intelligent sampling.
