@@ -8,7 +8,8 @@
 
 ## DRY principle:
 In Python which language features **don't** support DRY: "Don't Repeat Yourself":
-* `this`: used to define a class in Java (correct choice).
+* `this`: used to define a class in Java (false choice, Java).
+* `isinstance`: used to define a class in Java (false choice, Java).
 * `pass`: No operation (correct choice)
 * `self`: define a class
 * `def`: used to define a function. 
