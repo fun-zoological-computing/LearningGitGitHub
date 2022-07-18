@@ -17,7 +17,7 @@
 
 
 
-Sharing for git can potentially be less work for you (a solo worker) and or you and everyone else your team. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. Finally git "stages" files, this means git helps you to keep a history of your code files as they change over time.
+Sharing code via git can be less work for you (a solo worker) and or you and everyone else your team. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. Finally git "stages" files, this means git helps you to keep a history of your code files as they change over time.
 
 A functioning software project can rarely be reduced to source files alone. Sharing the source code is not sufficient to reproduce scientific results from another person, what you really need is to recreate their whole software environment. A pip virtual environment might go along way to achieving this, but virtual environments are OS and dependentant and specific to the build state and system level dependencys too.
 
