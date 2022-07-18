@@ -17,15 +17,14 @@
 
 
 
-Sharing for git can potentially be less work for you (a solo worker) and or you and everyone else your team. This is because git allows you to share whole software execution environments as opposed to a mere collection of files. Additionally github allows you difference your code versus your team mates with a feature a lot like track chanages, and it allows you to share and verify the buildability, and testability of the code. Finally git "stages" files, this means git helps you to keep a history of your code files as they change over time.
+* Sharing code via git can be less work for you (a solo worker), everyone else your team, or random collaborators from the internet. This is because git allows you to share whole programming environments. What I mean is, rather than merely sharing files, sharing dependencies. 
+* Additionally github allows you difference your code versus your team mates with a feature a lot like track changes, and it allows you to share and verify the buildability, and testability of the code. Finally git "stages" files, this means git helps you to keep a history of your code files as they change over time.
 
-A functioning software project can rarely be reduced to source files alone. Sharing the source code is not sufficient to reproduce scientific results from another person, what you really need is to recreate their whole software environment. A pip virtual environment might go along way to achieving this, but virtual environments are OS and dependentant and specific to the build state and system level dependencys too.
+* A functioning software project can rarely be reduced to source files alone. Sharing the source code is not sufficient to reproduce scientific results from another person, what you really need is to recreate their whole software environment. A pip virtual environment might go along way to achieving this, but virtual environments are OS and dependentant and specific to the build state and system level dependencys too.
 
-Imagine you share just the current version of the source code you are working on as a list of files, or even just some highlighted text. Your collaborator comes back to you, and says, the code wont run, unless you `conda install` `x,y,z` apt or brew install `a,b,c,` and additionally `pip install` `d,` since `conda` had no candidate for `d`.
+* Imagine you share just the current version of the source code you are working on as a list of files, or even just some highlighted text. Your collaborator comes back to you, and says, the code wont run, unless you `conda install` `x,y,z` apt or brew install `a,b,c,` and additionally `pip install` `d,` since `conda` had no candidate for `d`. Then after all of those installs the person may discover that some that the `PATH` environment variable needed editing (a binary needed to be added to the path).
 
-Then after all of those installs the person may discover that some that the `PATH` environment variable needed editing (a binary needed to be added to the path).
-
-Also you had hacked a package `beautiful soup` in order to make it compatible with your workflow, and your friend the collaborator would have to either comment out code lines that depended on beautiful soup, or install your hacked version, or write their own implementation of your code.
+* Also you had hacked a package `beautiful soup` in order to make it compatible with your workflow, and your friend the collaborator would have to either comment out code lines that depended on beautiful soup, or install your hacked version, or write their own implementation of your code.
 
 Fortuntately all of these project build idiosycracies can be absorbed into `.github/workflows` in a way that means you can pre-emptively share the hacks and workarounds that make your project unique from other projects. Almost any applied project will accumulate minor hacks. The important thing is that these workarounds are very often sharable too, and it can often be less work to find out how to make github automatically apply these workarounds.
 
