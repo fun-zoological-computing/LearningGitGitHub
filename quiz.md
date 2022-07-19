@@ -77,6 +77,29 @@ for i,x in enumerate([1,2,3,4,5]):
 c=[(i,x) for i,x in enumerate([1,2,3,4,5])]
 ```
 
+### Clear division between and tutorial
+A clear line.
+12 slides for 2 hours.
+
+Tutorials that is hardest to make.
+
+1 week out from the first lecture
+2 weeks from first tutorial
+
+
+
+## How to add
+
+## Jupyter Notebooks are not (select one):
+a) Language agnostic
+b) A web service, or a web technology.
+c) multirepresantational.
+
+
+## You can write HTML inside markdown?
+a) True
+b) False
+
 ## Genetic algorithms involve a counter balance of which forces:
 select 2 answers
 *a attraction
