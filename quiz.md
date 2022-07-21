@@ -1,10 +1,5 @@
-
-## Git history is what type of graph:
-* Un-directed cyclic. (correct) Git history is not time sensative or state sensitive. Git History means the same thing traversing it forwards or backwards. Feedback loops are possible in Git history.
-* Un-directed acyclic (convergence and divergence between collabotor forks and branches, but without feedback). In otherwords if there is feedback in githistory you could revisit past states, by following commits back outside a path of convergence, and loop backaround into the same commit/state.
-* Directed, Cyclic graph (recurrent connnections between collaborators).
-* Directed, Acyclic graph (convergence and divergence between collabotor forks and branches, but without feedback).
-
+## Why are list comprehensions good?
+List comprehension is an elegant way to define and create lists based on existing lists. List comprehension is generally more compact and faster than normal functions and loops for creating list. However, we should avoid writing very long list comprehensions in one line to ensure that code is user-friendly.
 
 ## DRY principle:
 In Python which language features **don't** support DRY: "Don't Repeat Yourself":
@@ -139,3 +134,11 @@ Optimization and inverse problems.
 ## In Genetic Algorithms $Eta$ is:
 *a momentum which can be used to plough through smaller gradients.
 *b the average step size caused by the combined effects mutation and cross over.
+
+
+## Git history is what type of graph:
+* Un-directed cyclic. (correct) Git history is not time sensative or state sensitive. Git History means the same thing traversing it forwards or backwards. Feedback loops are possible in Git history.
+* Un-directed acyclic (convergence and divergence between collabotor forks and branches, but without feedback). In otherwords if there is feedback in githistory you could revisit past states, by following commits back outside a path of convergence, and loop backaround into the same commit/state.
+* Directed, Cyclic graph (recurrent connnections between collaborators).
+* Directed, Acyclic graph (convergence and divergence between collabotor forks and branches, but without feedback).
+
