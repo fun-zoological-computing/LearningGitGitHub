@@ -20,17 +20,20 @@ In Python which language features **don't** support DRY: "Don't Repeat Yourself"
 ## Python is what kind of language:
 * Typed
 * Untyped
-* Optionally typed (correct)
+* Optionally typed (version 3.7>correct)
 
 ### Person x claims that Classes and functions make code harder to read, due to there being more special keyword. By contrast Linus Tvoldis the original linux kernel creator is famously qouted that if you have more than 4 levels of indentation then you should fix your code.
 Python has what tools to you to stop writing overly nested code:
 
-Which option is the least likely to help you unnest code.
-* `zip` (making 2d iterators easily)
+Which option is the likely to help you unnest code.
 * `enumerate`, giving you the index, and the indexed value
-* list comprensions and lambda functionn (one liners, syntactic expressions which would otherwise span multiple indentation levels.
+* list comprensions and lambda functionn (one liners which would otherwise span multiple indentation levels).
 * `def` (functions), a function definition contains nesting, but the function call hides the nesting .
-* `self` (classes)
+* all of the above (correct)
+<!--
+* `class` misleading. Classes are indented, but they help you to make object instances.
+* `zip` [false] (misleading joining multiple list iterators easily)-->
+
 
 ## Changing the git commit history is possible.
 ## Which command won't help you re-write history.
