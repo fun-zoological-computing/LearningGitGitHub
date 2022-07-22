@@ -1,10 +1,12 @@
 
-## Git history is what type of graph:
-* Un-directed cyclic. (correct) Git history is not time sensative or state sensitive. Git History means the same thing traversing it forwards or backwards. Feedback loops are possible in Git history.
-* Un-directed acyclic (convergence and divergence between collabotor forks and branches, but without feedback). In otherwords if there is feedback in githistory you could revisit past states, by following commits back outside a path of convergence, and loop backaround into the same commit/state.
-* Directed, Cyclic graph (recurrent connnections between collaborators).
-* Directed, Acyclic graph (convergence and divergence between collabotor forks and branches, but without feedback).
+## Which is faster:
+* Python list iteration
+* Numpy vectorization
+* Numpy array Iteration.
+* Numba iteration
 
+## Why are list comprehensions good?
+List comprehension is an elegant way to define and create lists based on existing lists. List comprehension is generally more compact and faster than normal functions and loops for creating list. However, we should avoid writing very long list comprehensions in one line to ensure that code is user-friendly.
 
 ## DRY principle:
 In Python which language features **don't** support DRY: "Don't Repeat Yourself":
@@ -18,17 +20,20 @@ In Python which language features **don't** support DRY: "Don't Repeat Yourself"
 ## Python is what kind of language:
 * Typed
 * Untyped
-* Optionally typed (correct)
+* Optionally typed (version 3.7>correct)
 
 ### Person x claims that Classes and functions make code harder to read, due to there being more special keyword. By contrast Linus Tvoldis the original linux kernel creator is famously qouted that if you have more than 4 levels of indentation then you should fix your code.
 Python has what tools to you to stop writing overly nested code:
 
-Which option is the least likely to help you unnest code.
-* `zip` (making 2d iterators easily)
+Which option is the likely to help you unnest code.
 * `enumerate`, giving you the index, and the indexed value
-* list comprensions and lambda functionn (one liners, syntactic expressions which would otherwise span multiple indentation levels.
+* list comprensions and lambda functionn (one liners which would otherwise span multiple indentation levels).
 * `def` (functions), a function definition contains nesting, but the function call hides the nesting .
-* `self` (classes)
+* all of the above (correct)
+<!--
+* `class` misleading. Classes are indented, but they help you to make object instances.
+* `zip` [false] (misleading joining multiple list iterators easily)-->
+
 
 ## Changing the git commit history is possible.
 ## Which command won't help you re-write history.
@@ -139,3 +144,11 @@ Optimization and inverse problems.
 ## In Genetic Algorithms $Eta$ is:
 *a momentum which can be used to plough through smaller gradients.
 *b the average step size caused by the combined effects mutation and cross over.
+
+
+## Git history is what type of graph:
+* Un-directed cyclic. (correct) Git history is not time sensative or state sensitive. Git History means the same thing traversing it forwards or backwards. Feedback loops are possible in Git history.
+* Un-directed acyclic (convergence and divergence between collabotor forks and branches, but without feedback). In otherwords if there is feedback in githistory you could revisit past states, by following commits back outside a path of convergence, and loop backaround into the same commit/state.
+* Directed, Cyclic graph (recurrent connnections between collaborators).
+* Directed, Acyclic graph (convergence and divergence between collabotor forks and branches, but without feedback).
+
