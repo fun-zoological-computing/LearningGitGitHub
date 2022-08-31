@@ -1,6 +1,6 @@
 
 
-# Lab Assignment 1
+# Lab Tutorial part 1 (1.5%)
 ### Submission requirements:
 
 Submission is via GIT Classroom, and Turnitin. 
