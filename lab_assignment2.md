@@ -1,4 +1,4 @@
-## Exercises, Take home lab instructions:
+## Tutorial, Take home lab instructions (1.5%):
 
 
 Classic Problem for Python Notebook development:
