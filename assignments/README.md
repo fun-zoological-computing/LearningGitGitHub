@@ -1,12 +1,4 @@
 
-[Week 2 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week2.ipynb)
-
-[Week 3 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week3.ipynb)
-
-[Week 4 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week4.ipynb)
-
-[Week 8 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week8.ipynb)
-
 # Version Control and Beyond: Not Just Convenient and Effective Sharing!
 
 [presentation](presentation.md)
@@ -92,3 +84,11 @@ My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "
 --->
 
 
+
+[Week 2 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week2.ipynb)
+
+[Week 3 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week3.ipynb)
+
+[Week 4 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week4.ipynb)
+
+[Week 8 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week8.ipynb)
