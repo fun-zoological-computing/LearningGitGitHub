@@ -4,7 +4,8 @@
 ### Submission requirements:
 
 Submission is via GIT Classroom
-For turnit-in Copy the code as plain text to a document and submit.
+
+TUTORIAL, github can be like words track changes but for code.
 ## GitHub Pitfalls:
 
 
