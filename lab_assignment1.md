@@ -146,7 +146,8 @@ totally different content to merge later
 ```>>>>>>>``` new_branch_to_merge_later
 
 
-
+# Resolving the conflict.
+ 
 [How to resolve merge conflicts using the command line](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)
  
 The most direct way to resolve a merge conflict is to edit the conflicted file. Open the merge.txt file in your favorite editor. For our example lets simply remove all the conflict dividers. The modified merge.txt content should then look like:
