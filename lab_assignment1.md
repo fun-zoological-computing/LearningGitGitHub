@@ -68,9 +68,7 @@ $ git commit -am"we are commiting the inital content"
 create mode 100644 merge.txt
 ```
 * This code example executes a sequence of commands that accomplish the following.
-
 * Create a new directory named git-merge-test, change to that directory, and initialize it as a new Git repo.
-
 * Create a new text file merge.txt with some content in it.  
 * Add merge.txt to the repo and commit it.
 
@@ -126,16 +124,22 @@ The output from git status indicates that there are unmerged paths due to a conf
 $ cat merge.txt
 ```
 <<<<<<< HEAD
+           
 this is some content to mess with
 content to append
+           
 =======
+           
 totally different content to merge later
+
 >>>>>>> new_branch_to_merge_later
-Here we have used the cat command to put out the contents of the merge.txt file. We can see some strange new additions
+
+ Here we have used the cat command to put out the contents of the merge.txt file. We can see some strange new additions
 
 <<<<<<< HEAD
 =======
 >>>>>>> new_branch_to_merge_later
+
 Think of these new lines as "conflict dividers". The ======= line is the "center" of the conflict. All the content between the center and the <<<<<<< HEAD line is content that exists in the current branch main which the HEAD ref is pointing to. Alternatively all content between the center and >>>>>>> new_branch_to_merge_later is content that is present in our merging branch.
 
 https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
