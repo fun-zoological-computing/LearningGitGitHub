@@ -3,7 +3,7 @@
 # Lab Tutorial part 1 (1.5%)
 ### Submission requirements:
 
-Submission is via GIT Classroom, and Turnitin. 
+Submission is via GIT Classroom
 For turnit-in Copy the code as plain text to a document and submit.
 ## GitHub Pitfalls:
 
