@@ -120,6 +120,9 @@ Unmerged paths:
 
 both modified:   merge.txt
 The output from git status indicates that there are unmerged paths due to a conflict. The merge.text file now appears in a modified state. Let's examine the file and see whats modified.
+ 
+In the content below, think of these new lines as "conflict dividers". The ======= line is the "center" of the conflict. All the content between the center and the <<<<<<< HEAD line is content that exists in the current branch main which the HEAD ref is pointing to. Alternatively all content between the center and >>>>>>> new_branch_to_merge_later is content that is present in our merging branch.
+ 
 ```
 $ cat merge.txt
 ```
@@ -137,10 +140,11 @@ totally different content to merge later
  Here we have used the cat command to put out the contents of the merge.txt file. We can see some strange new additions
 
 <<<<<<< HEAD
+           
 =======
->>>>>>> new_branch_to_merge_later
 
-Think of these new lines as "conflict dividers". The ======= line is the "center" of the conflict. All the content between the center and the <<<<<<< HEAD line is content that exists in the current branch main which the HEAD ref is pointing to. Alternatively all content between the center and >>>>>>> new_branch_to_merge_later is content that is present in our merging branch.
+ >>>>>>> new_branch_to_merge_later
+
 
 https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
 How to resolve merge conflicts using the command line
