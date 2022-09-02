@@ -1,12 +1,3 @@
-
-[Week 2 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week2.ipynb)
-
-[Week 3 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week3.ipynb)
-
-[Week 4 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week4.ipynb)
-
-[Week 8 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week8.ipynb)
-
 # Version Control and Beyond: Not Just Convenient and Effective Sharing!
 
 [presentation](presentation.md)
@@ -89,4 +80,16 @@ You realise, that she may not be expecting to look for the salt shaker to be in 
 When someone wants to do code collaboration with you, you might be tempted to send them a list of the latest files over email or a messenger, that would "feel" as appropriate as directly passing a salt shaker at the kitchen table. I will argue instead that sharing a git repository is a lot more like directly passing the salt shaker at the kitchen table.
 
 My reasoning includes: "forthought", "empathy", "self-empathy", "convenience", "politeness".
+
+
+[Week 2 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week2.ipynb)
+
+[Week 3 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week3.ipynb)
+
+[Week 4 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week4.ipynb)
+
+[Week 8 lecture NB](https://github.com/fun-zoological-computing/LearningGitGitHub/blob/master/Week8.ipynb)
+
+
 --->
+
