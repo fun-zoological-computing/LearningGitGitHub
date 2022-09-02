@@ -126,24 +126,24 @@ In the content below, think of these new lines as "conflict dividers". The =====
 ```
 $ cat merge.txt
 ```
-<<<<<<< HEAD
+`<<<<<<<` HEAD
            
 this is some content to mess with
 content to append
            
-=======
+`=======`
            
 totally different content to merge later
 
->>>>>>> new_branch_to_merge_later
+`>>>>>>>` new_branch_to_merge_later
 
  Here we have used the cat command to put out the contents of the merge.txt file. We can see some strange new additions
 
-<<<<<<< HEAD
+`<<<<<<<` HEAD
            
-=======
+`=======`
 
- >>>>>>> new_branch_to_merge_later
+```>>>>>>>``` new_branch_to_merge_later
 
 
 https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts
