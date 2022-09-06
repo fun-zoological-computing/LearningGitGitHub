@@ -6,9 +6,12 @@ Classic Problem for Python Notebook development:
 ![json_diffs_bad.png](json_diffs_bad.png)
 
 
-Learn the basics of git (as opposed to github), with these Software Carpentry lessons:
+This is what the GitHistory of a large socially coded project can look like:
 
-http://swcarpentry.github.io/git-novice/
+![tubeOfLondon.png](tubeOfLondon.png)
+
+Its an acyclic directed graph, and the styling for visualizing part of the graph where different versions of the code are merged together is called "a tube of London" graph.
+
 
 ## Resistance Safe Houses (cafe reviews, or nature park reviews).
 
