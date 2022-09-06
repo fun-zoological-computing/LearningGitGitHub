@@ -1,14 +1,19 @@
-## Tutorial, Take home lab instructions (1.5%):
-
-
-Classic Problem for Python Notebook development:
-
-![json_diffs_bad.png](json_diffs_bad.png)
+## Tutorial, Do or in class or (if there is no time) take home lab instructions (1.5%):
 
 
 This is what the GitHistory of a large socially coded project can look like:
 
-![tubeOfLondon.png](tubeOfLondon.png)
+<p align="center" width="100%">
+ <img src="images/tubeOfLondon.png" width="250" height="250" /> </div>
+</p>
+What you can see, is, that there are a lot of different commits by different authors, on different authors, that are all converging into the main branch of the current 
+directory.
+
+
+Classic Problem for Python Notebook development:
+<p align="center" width="100%">
+  <img src="images/json_diffs_bad.png" width="325" height="325" />
+</p>
 
 Its an acyclic directed graph, and the styling for visualizing part of the graph where different versions of the code are merged together is called "a tube of London" graph.
 
@@ -21,7 +26,7 @@ Collaboration using Gitub and geojson
 
 There are two methods to contributing on GitHub. The first and most direct is for the owner to grant push access to you. This allows you to clone their repository directly and push changes without requiring their approval. Very convenient, but also a security nightmare and a real hassle to add and remove people from the list.
 
-<img src="images/fork.png" width="80" height="80" />
+<img src="images/fork.png" width="80" height="80" class="centerImage" />
 
 
 ## Step  2: Adding content in geojson format
@@ -107,7 +112,7 @@ cd resistance-safe-houses
 There is one more thing left to do: keeping up to date with upstream. In Git upstream refers to some remote repository that you consider higher or more authoritative than yours. At the moment your local repository has one upstream repository, your GitHub repository. When you type git pull, that’s where it pulls from
 
 ```
-git remote add upstream https://github.com/russelljjarvis/resistance-safe-houses.git
+git remote add upstream https://github.com/USERNAME/resistance-safe-houses.git
 git fetch upstream
 git merge upstream/master
 git push
@@ -120,7 +125,7 @@ git push origin master
 
 ## Step  8: view the results
 
-We embed the geojson into a gh-pages (project) web page here: http://russelljjarvis.github.io/resistance-safe-houses/
+We embed the geojson into a gh-pages (project) web page here: http://fun-zoological-computing.github.io/resistance-safe-houses/
 
 # Notes
 

@@ -23,7 +23,7 @@ Automatic merge failed; fix conflicts and then commit the result.
 ```
 * Its a classic problem that sometimes leads to this git anti pattern:
 
-![gitxkcd.png](gitxkcd.png)
+![gitxkcd.png](images/gitxkcd.png)
 
 
 This problem even happened organically in the creation of this learning material. See below:
