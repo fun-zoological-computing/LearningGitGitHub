@@ -1,10 +1,10 @@
 # Version Control and Beyond: Not Just Convenient and Effective Sharing!
 
-[presentation](presentation.md)
-
 [Lab Assignment 1](lab_assignment1.md)
 
 [Lab Assignment 2](lab_assignment2.md)
+
+[presentation](presentation.md)
 
 
 * Sharing code via git can be less work for you (a solo worker), everyone else your team, or random collaborators from the internet. This is because git allows you to share whole programming environments. What I mean is, rather than merely sharing files, sharing dependencies.
