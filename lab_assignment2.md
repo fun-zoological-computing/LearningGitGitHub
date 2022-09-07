@@ -3,17 +3,19 @@
 
 This is what the GitHistory of a large socially coded project can look like:
 
- <div style="text-align:center"> <img src="images/tubeOfLondon.png" width="250" height="250" /> </div>
-
+<p align="center" width="100%">
+ <img src="images/tubeOfLondon.png" width="250" height="250" /> </div>
+</p>
 What you can see, is, that there are a lot of different commits by different authors, on different authors, that are all converging into the main branch of the current 
 directory.
 
 
 Classic Problem for Python Notebook development:
+<p align="center" width="100%">
 
 <center> <img src="images/json_diffs_bad.png" width="150" height="150" /> </center>
 
-
+</p>
 Its an acyclic directed graph, and the styling for visualizing part of the graph where different versions of the code are merged together is called "a tube of London" graph.
 
 
