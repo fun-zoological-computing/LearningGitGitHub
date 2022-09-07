@@ -8,7 +8,7 @@ Classic Problem for Python Notebook development:
 
 This is what the GitHistory of a large socially coded project can look like:
 
-![LearningGitGitHub/tubeOfLondon.png](LearningGitGitHub/tubeOfLondon.png)
+![tubeOfLondon.png](tubeOfLondon.png)
 
 Its an acyclic directed graph, and the styling for visualizing part of the graph where different versions of the code are merged together is called "a tube of London" graph.
 
