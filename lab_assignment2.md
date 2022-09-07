@@ -3,7 +3,7 @@
 
 This is what the GitHistory of a large socially coded project can look like:
 
-<center> <img src="images/tubeOfLondon.png" width="150" height="150" /> </center>
+ <div style="text-align:center"> <img src="images/tubeOfLondon.png" width="250" height="250" /> </div>
 
 What you can see, is, that there are a lot of different commits by different authors, on different authors, that are all converging into the main branch of the current 
 directory.
