@@ -1,14 +1,18 @@
-## Tutorial, Take home lab instructions (1.5%):
+## Tutorial, Do or in class or (if there is no time) take home lab instructions (1.5%):
+
+
+This is what the GitHistory of a large socially coded project can look like:
+
+<img src="images/tubeOfLondon.png" width="80" height="80" />
+
+What you can see, is, that there are a lot of different commits by different authors, on different authors, that are all converging into the main branch of the current 
+directory.
 
 
 Classic Problem for Python Notebook development:
 
 ![json_diffs_bad.png](images/json_diffs_bad.png)
 
-
-This is what the GitHistory of a large socially coded project can look like:
-
-![tubeOfLondon.png](images/tubeOfLondon.png)
 
 Its an acyclic directed graph, and the styling for visualizing part of the graph where different versions of the code are merged together is called "a tube of London" graph.
 
