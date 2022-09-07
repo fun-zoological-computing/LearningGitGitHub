@@ -12,7 +12,7 @@ directory.
 
 Classic Problem for Python Notebook development:
 <p align="center" width="100%">
-  <img src="images/json_diffs_bad.png" width="250" height="250" />
+  <img src="images/json_diffs_bad.png" width="325" height="325" />
 </p>
 
 Its an acyclic directed graph, and the styling for visualizing part of the graph where different versions of the code are merged together is called "a tube of London" graph.
