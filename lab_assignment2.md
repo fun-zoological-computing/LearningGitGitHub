@@ -107,7 +107,7 @@ cd resistance-safe-houses
 There is one more thing left to do: keeping up to date with upstream. In Git upstream refers to some remote repository that you consider higher or more authoritative than yours. At the moment your local repository has one upstream repository, your GitHub repository. When you type git pull, that’s where it pulls from
 
 ```
-git remote add upstream https://github.com/russelljjarvis/resistance-safe-houses.git
+git remote add upstream https://github.com/USERNAME/resistance-safe-houses.git
 git fetch upstream
 git merge upstream/master
 git push
@@ -120,7 +120,7 @@ git push origin master
 
 ## Step  8: view the results
 
-We embed the geojson into a gh-pages (project) web page here: http://russelljjarvis.github.io/resistance-safe-houses/
+We embed the geojson into a gh-pages (project) web page here: http://fun-zoological-computing.github.io/resistance-safe-houses/
 
 # Notes
 
