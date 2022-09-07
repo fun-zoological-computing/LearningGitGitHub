@@ -11,7 +11,7 @@ directory.
 
 Classic Problem for Python Notebook development:
 
-<img src="images/json_diffs_bad.png" width="150" height="150" />
+<img src="images/json_diffs_bad.png" width="150" height="150" class="centerImage" />
 
 
 Its an acyclic directed graph, and the styling for visualizing part of the graph where different versions of the code are merged together is called "a tube of London" graph.
@@ -25,7 +25,7 @@ Collaboration using Gitub and geojson
 
 There are two methods to contributing on GitHub. The first and most direct is for the owner to grant push access to you. This allows you to clone their repository directly and push changes without requiring their approval. Very convenient, but also a security nightmare and a real hassle to add and remove people from the list.
 
-<img src="images/fork.png" width="80" height="80" />
+<img src="images/fork.png" width="80" height="80" class="centerImage" />
 
 
 ## Step  2: Adding content in geojson format
