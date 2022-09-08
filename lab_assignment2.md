@@ -125,7 +125,9 @@ git push origin master
 
 ## Step  8: view the results
 
-We embed the geojson into a gh-pages (project) web page here: http://fun-zoological-computing.github.io/resistance-safe-houses/
+We embed the geojson into a gh-pages (project) web page here: [http://fun-zoological-computing.github.io/resistance-safe-houses/](https://russelljjarvis.github.io/resistance-safe-houses/)
+
+I will update this when I have received student pull requests soon.
 
 # Notes
 
