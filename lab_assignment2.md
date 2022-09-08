@@ -33,7 +33,8 @@ There are two methods to contributing on GitHub. The first and most direct is fo
 
 Create a new geojson file:
 
-* Go to geojson.io and use the marker icon to place a marker at the Safehouse (cafe / bar) of your choice. This creates a Feature Collection with a geometry type Point...
+* Go to geojson.io and use the 
+* marker icon to place a marker at the Safehouse (cafe / bar) of your choice. This creates a Feature Collection with a geometry type Point...
 
 <img src="images/point.png" width="120" height="120" />
 
@@ -97,7 +98,7 @@ In the local repository, the owner can now run`python merge_jsons.py` will merge
 
 Don't forget to push these changes back to github..
 
-## Step  7: Pull the upstream changes into your Fork
+## Step  7: Pull the upstream changes into your Fork (this gets your team mates changes as well, other WSU developers who have added in their geojson files).
 
 Run the following commands from the directory where you want to store a local copy of your repository.
 
