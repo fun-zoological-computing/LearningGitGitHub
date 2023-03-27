@@ -1,10 +1,10 @@
-# Version Control and Beyond: Not Just Convenient and Effective Sharing!
+### Version Control and Beyond: Not Just Convenient and Effective Sharing!
 
 [Lab Assignment 1](lab_assignment1.md)
 
 [Lab Assignment 2](lab_assignment2.md)
 
-# Neuromorphic Engineering bars cafes and resistance safe houses around syndney. Originally by @dansand, and before that based on software carpenty 
+### Neuromorphic Engineering bars cafes and resistance safe houses around syndney. Originally by @dansand, and before that based on software carpenty 
 
 ## Finished Git merging Assignment for Neuromorphic Algorithms: 
 ### Good Bars and resistance safe houses.
